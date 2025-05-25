@@ -6,4 +6,4 @@ An autoencoder is used to compress an input image using an encoder and then reco
 Below is the comparision: <br> 
 | INPUT | RECONSTRUCTED |
 |--------|-------|
-| <img src="https://github.com/Parth-D3/Autoencoders/blob/main/data/monalisa.jpg" width="250" height = "250"/> | <img src="https://example.com/image2.png" width="200"/> |
+| <img src="https://github.com/Parth-D3/Autoencoders/blob/main/data/monalisa.jpg" width="250" height = "250"/> | <img src="https://github.com/Parth-D3/Autoencoders/blob/main/data/monalisa_output.png" width="250" height = "250"/> |
