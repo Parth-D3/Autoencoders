@@ -15,7 +15,7 @@ An autoencoder can also be used to denoise images. To do so, the noisy image is 
 <hr>
 
 ### Anomaly Detection
-Dataset: [https://data.lhncbc.nlm.nih.gov/public/Malaria/cell_images.zip](https://data.lhncbc.nlm.nih.gov/public/Malaria/cell_images.zip)
+Dataset: [https://data.lhncbc.nlm.nih.gov/public/Malaria/cell_images.zip](https://data.lhncbc.nlm.nih.gov/public/Malaria/cell_images.zip)  <br>
 An autoencoder can also detect anomalies in all types of data. The model is trained with 'normal' or 'non-anomaly' images. Learning takes place and the autoencoder is able to reconsturct the same type of images as that of training ones. If any other image with major changes is presented to the model, it is not able to recreate it accurately. Thus, the error for the anomalous image is higher than a set threshold and thus image is flagged as anomaly. Find the program in [Autoencoder_anomaly_Detection.ipynb](./data/Autoencoder_anomaly_Detection.ipynb).<br>
 The given dataset contains the following two types of images. The model was trained on around 16 out of 100 epochs due to early stopping. Mean Squared error ws used as the metric to measure the difference between input and reconstructed image. 
 <img src="https://github.com/Parth-D3/Autoencoders/blob/main/data/malaria.png" />
