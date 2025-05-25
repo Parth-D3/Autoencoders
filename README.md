@@ -10,6 +10,6 @@ Below is the comparision: <br>
 <hr>
 
 ### Denoising MNIST Dataset
-An autoencoder can also be used to denoise images. To do so, the noisy image is fed as input and the original image as the target image while training an autoencoder. In this program, the mnist dataset was loaded using `tensorflow.keras` library. The images were converted to noisy images with a noise_factor = 0.5. The model was trained for 100 epochs. Below is the output: <br>
+An autoencoder can also be used to denoise images. To do so, the noisy image is fed as input and the original image as the target image while training an autoencoder. In this program, the mnist dataset was loaded using `tensorflow.keras` library. The images were converted to noisy images with a noise_factor = 0.5. The model was trained for 100 epochs. Find the program  [Autoencoder_denoising_mnist.ipynb](./Autoencoder_denoising_mnist.ipynb). file Below is the output: <br>
 <img src="https://github.com/Parth-D3/Autoencoders/blob/main/data/autoencoder_mnist.png" />
 <hr>
