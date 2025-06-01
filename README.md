@@ -23,3 +23,6 @@ The given dataset contains the following two types of images. The model was trai
 
 ### Image Colorisation
 An autoencoder can also be utilized to convert gray scale images to colored images through image colorisation. Colored images (RGB) and their grayscale equivalents are provided as X,Y during training. New unseen grayscale images similar to those used in training can then be fed to the autoencoder model to get RGB conversion. For the demonstration purposes, 60 random images were used which can be found in [data/images](./data/images). The model was initially trained on 300 epochs and retrained for an additional 300 epochs. due to no improvement in validation accuracy, the training was concluded. Find the program files here [Autoencoder_image_colorisation.ipynb](./Autoencoder_image_colorisation.ipynb).
+| INPUT | COLORED |
+|--------|-------|
+| <img src="https://github.com/Parth-D3/Autoencoders/blob/main/data/images/test_img.jpg" width="250" height = "250"/> | <img src="https://github.com/Parth-D3/Autoencoders/blob/main/data/images/colored_output.png" width="250" height = "250"/> |
